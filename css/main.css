@@ -72,8 +72,7 @@ hr {
 }
 /*Termina el encabezado*/
   
-  /*Init Nav*/
-  
+/* Inicia la barra de navegación */ 
 /* Estilos para el contenedor de navegación */
 .navegation-container {
   display: grid; /* Se usa un diseño de cuadrícula */
@@ -85,6 +84,11 @@ hr {
 /* Estilos para los artículos de navegación */
 .navegation-article {
   text-align: center; /* Alineación del texto al centro */
+  cursor: pointer;
+}
+
+.navegation-article:hover{
+  background-color:  #eaecf0; /* Color de fondo gris claro */
 }
 
 /* Estilos para el texto en negrita dentro de los artículos de navegación */
@@ -97,6 +101,7 @@ hr {
 .navegation-article p {
   font-size: 0.93em; /* Tamaño de la fuente del párrafo */
   margin: 0.5em 0 0; /* Margen alrededor del párrafo */
+  cursor: pointer;
 }
 
 /* Estilos específicos para cada artículo de navegación basados en su posición (nth-of-type) en el contenedor */
@@ -288,7 +293,7 @@ hr {
 
 /* Estilo hover que se le agrega la lista de enlaces */
 .links-list-item:hover{
-  background-color: #f8f9fa; /* Color de fondo gris claro */
+  background-color:  #eaecf0; /* Color de fondo gris claro */
 }
 
 /* Estilos para los títulos (h4) dentro de los elementos de la lista de enlaces */
