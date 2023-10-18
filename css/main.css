@@ -285,6 +285,10 @@ hr {
   font-weight: bold; /* Peso en negrita del texto del enlace */
 }
 
+.links-list-item:hover{
+  background-color: #d0d6dd;
+}
+
 /* Estilos para los títulos (h4) dentro de los elementos de la lista de enlaces */
 .links-list-item h4 {
   font-size: 0.9rem; /* Tamaño normal de la fuente del título */
@@ -302,6 +306,7 @@ hr {
 .links-list-item .item-detail {
   margin-left: 1em; /* Margen a la izquierda del detalle del elemento */
   flex: auto; /* Flexibilidad para crecer y encogerse según sea necesario */
+  cursor: pointer;
 }
 
 /* Estilos para los títulos (h3) dentro del detalle del elemento */
